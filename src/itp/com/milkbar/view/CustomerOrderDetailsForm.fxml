@@ -95,14 +95,14 @@
          <graphic>
               <ImageView fitHeight="33.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                      <Image url="@../assests/order.png" />
+                      <Image url="@images/shopping-bag.png" />
                   </image>
               </ImageView>
          </graphic></Button>
         <Button layoutX="427.0" layoutY="102.0" onAction="#btnNewCustomerOnAction" prefHeight="40.0" prefWidth="101.0" style="-fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" styleClass="button" text="New" />
-        <ImageView layoutX="436.0" layoutY="110.0">
+        <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="436.0" layoutY="110.0">
             <image>
-                <Image url="@../assests/create.png" />
+                <Image url="@images/plus-sign.png" />
             </image>
         </ImageView>
         <Label layoutX="54.0" layoutY="509.0" prefHeight="40.0" prefWidth="134.0" style="-fx-text-fill: #ffff; -fx-font-size: 25px;" styleClass="label" text="Net Total :" />
