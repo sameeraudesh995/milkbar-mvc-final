@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="575.0" prefWidth="978.0" styleClass="mainForm" stylesheets="@stylesheets/supplier.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itp.com.milkbar.controller.SupplierFormController">
+    <children>
+        <Button layoutX="676.0" layoutY="254.0" onAction="#btnAddOnAction" style=" -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);" styleClass="button" text="SAVE">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="787.0" layoutY="254.0" onAction="#btnRemoveOnAction" style=" -fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" styleClass="button" text="CLEAR">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtId" layoutX="101.0" layoutY="107.0" onKeyPressed="#lblEnterKeyPressedOnAction" prefHeight="33.0" prefWidth="310.0" promptText="Supplier Id*" styleClass="text-field" />
+        <TextField fx:id="txtName" layoutX="508.0" layoutY="107.0" prefHeight="33.0" prefWidth="310.0" promptText="Supplier Name*" styleClass="text-field" />
+        <TextField fx:id="txtContact" layoutX="102.0" layoutY="178.0" prefHeight="33.0" prefWidth="310.0" promptText="Contact*" styleClass="text-field" />
+        <TextField fx:id="txtEmail" layoutX="509.0" layoutY="178.0" prefHeight="33.0" prefWidth="310.0" promptText="Email*" styleClass="text-field" />
+        <Label layoutX="101.0" layoutY="82.0" opacity="0.74" style="-fx-text-fill: #ffff;" text="Id*">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="508.0" layoutY="82.0" opacity="0.74" style="-fx-text-fill: #ffff;" text="Name*">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="102.0" layoutY="153.0" opacity="0.74" style="-fx-text-fill: #ffff;" text="Contact*">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="509.0" layoutY="153.0" opacity="0.74" style="-fx-text-fill: #ffff;" text="Email*">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tblSupplier" layoutX="92.0" layoutY="352.0" prefHeight="209.0" prefWidth="776.0" styleClass="table-view">
+            <columns>
+                <TableColumn fx:id="colID" prefWidth="118.0" text="ID" />
+                <TableColumn fx:id="colName" prefWidth="183.0" text="Name" />
+                <TableColumn fx:id="colContact" prefWidth="153.0" text="Contact" />
+                <TableColumn fx:id="colEmail" prefWidth="186.0" text="Email" />
+                <TableColumn fx:id="colCompany" prefWidth="135.0" text="Company" />
+            </columns>
+        </TableView>
+        <TextField fx:id="txtSearch" layoutX="450.0" layoutY="312.0" onKeyPressed="#SearchOnAction" prefHeight="34.0" prefWidth="418.0" promptText="Search" styleClass="text-field" />
+        <Button layoutX="565.0" layoutY="254.0" onAction="#btnUpdateOnAction" prefHeight="31.0" prefWidth="77.0" style=" -fx-background-color: linear-gradient(to bottom, #c1121f, #780000);" styleClass="button" text="Update">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="458.0" layoutY="254.0" onAction="#btnDeleteOnAction" style=" -fx-background-color: linear-gradient(to bottom, #3772ff, #0a2472);" styleClass="button del-btn" text="Delete">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="48.0" fitWidth="46.0" layoutX="29.0" layoutY="14.0" onMouseClicked="#onClickBackButton" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/leftarrow.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="txtCompany" layoutX="102.0" layoutY="264.0" prefHeight="33.0" prefWidth="310.0" promptText="Company*" styleClass="text-field" />
+        <Label layoutX="102.0" layoutY="239.0" opacity="0.74" style="-fx-text-fill: #ffff;" text="Company*">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="77.0" fitWidth="86.0" layoutX="421.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/wholesale.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="575.0" prefWidth="978.0" styleClass="mainForm" stylesheets="@stylesheets/customerPayment.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itp.com.milkbar.controller.CustomerPaymentFormController">
+    <children>
+        <ImageView fitHeight="122.0" fitWidth="147.0" layoutX="394.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/cash-payement-1.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="92.0" layoutY="188.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Customer ID" />
+        <JFXComboBox fx:id="cmbCustomerID" layoutX="254.0" layoutY="192.0" onAction="#cmbCustomerID" prefHeight="38.0" prefWidth="151.0" />
+        <Label layoutX="499.0" layoutY="192.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Customer Name :" />
+        <Label fx:id="customerName" layoutX="724.0" layoutY="190.0" prefHeight="38.0" prefWidth="151.0" />
+        <Label layoutX="499.0" layoutY="269.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Order ID :" />
+        <Label fx:id="orderID" layoutX="636.0" layoutY="269.0" prefHeight="38.0" prefWidth="151.0" />
+        <Label layoutX="92.0" layoutY="275.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Payment ID :" />
+        <Label fx:id="paymentID" layoutX="254.0" layoutY="275.0" prefHeight="38.0" prefWidth="151.0" />
+        <Label layoutX="90.0" layoutY="363.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Total :" />
+        <Label fx:id="total" layoutX="188.0" layoutY="363.0" prefHeight="38.0" prefWidth="151.0" />
+        <JFXButton layoutX="420.0" layoutY="446.0" onAction="#PaymentSuccessFully" prefHeight="57.0" prefWidth="232.0" style="-fx-pref-width: 200px; -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);" text="Payment Success" />
+        <JFXButton fx:id="btnCancel" layoutX="640.0" layoutY="446.0" onAction="#btnCancelAction" prefHeight="57.0" prefWidth="150.0" style="-fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" text="Cancel" />
+        <Label layoutX="651.0" layoutY="55.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Date :" />
+        <Label fx:id="date" layoutX="736.0" layoutY="55.0" prefHeight="38.0" prefWidth="151.0" />
+        <Label layoutX="649.0" layoutY="107.0" style="-fx-text-fill: white; -fx-font-size: 20px;" text="Time :" />
+        <Label fx:id="time" layoutX="736.0" layoutY="107.0" prefHeight="38.0" prefWidth="151.0" />
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="20.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/leftarrow.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

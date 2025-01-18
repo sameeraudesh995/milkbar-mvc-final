@@ -1,0 +1,23 @@
+
+.button{
+-fx-background-radius: 20px;
+-fx-background-color: #ffff;
+-fx-pref-width: 200px;
+-fx-font-weight: bold;
+-fx-text-fill: #3742fa;
+-fx-font-size: 15px;
+-fx-padding: 10px 20px;
+-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.3, 0, 2);
+-fx-transition: all 0.3s ease;
+}
+
+.button:hover {
+   -fx-background-color:  linear-gradient(to bottom, #ffffff , #1e90ff);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button .graphic {
+    -fx-margin: 0 10px 0 0;
+    -fx-align-self: center;
+}
