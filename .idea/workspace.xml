@@ -5,53 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jBCrypt_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/lib/jBCrypt-0.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/util/CrudUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/util/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/jfreechart-1.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/joda-time-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/jpa.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js-hive-datasource-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js-mongodb-datasource-1.0.0a.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_axis-1.4patched.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_commons-codec-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_commons-discovery-0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_commons-httpclient-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_jasperserver-common-ws-4.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_jaxrpc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_mail-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_saaj-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/js_wsdl4j-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/jta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/jxl-2.6.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/libfb303-0.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/libthrift-0.9.0-snapshot.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/log4j-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/mondrian-3.2.0-13661-JS.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/mongo-java-driver-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/olap4j-0.9.7.309-JS.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/png-encoder-1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/poi-3.7-20101029.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/poi-ooxml-3.7-20101029.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/poi-ooxml-schemas-3.7-20101029.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/rex-0.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/rex-20080421.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/rhino-1.7R3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/saaj-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/servlet-api-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/slf4j-api-1.5.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/slf4j-log4j12-1.5.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/spring.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/sqleonardo-2009.03.rc1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/swingx-2007_10_07.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/velocity-1.7-dep.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/xbean.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/xml-apis-ext.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/lib/xml-apis.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/images/plus-mark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/images/plus-sign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/images/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/stylesheets/customerForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/milkbar-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/milkbar-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/1053210.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/1160865.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/295128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/306440.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/7aad93f5ee18c7ddbf299303b2492726.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/create.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/customer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-back-arrow-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-customer-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-fill-in-form-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-go-back-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-graph-report-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-home-page-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-ingredients-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-manager-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-pay-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-payment-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-payment-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-payment-report-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-purchase-order-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-report-file-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/icons8-supplier-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/images (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/lock-4573711_1280.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/milk-bottle-glass_101087-940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/assests/place_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/AdminDashBoardFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/AdminLoginFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/CashierDashBoardFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/CustomerFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/CustomerOrderDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/CustomerPaymentFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/EmployeeFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/LoginFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/MainFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/PaymentFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/RegistrationFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/SupplierFormController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/SupplierPaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/jfreechart-1.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/joda-time-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/jpa.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js-hive-datasource-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js-mongodb-datasource-1.0.0a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_axis-1.4patched.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_commons-codec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_commons-discovery-0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_commons-httpclient-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_jasperserver-common-ws-4.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_jaxrpc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_mail-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_saaj-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/js_wsdl4j-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/jta.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/jxl-2.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/libfb303-0.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/libthrift-0.9.0-snapshot.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/mondrian-3.2.0-13661-JS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/mongo-java-driver-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/olap4j-0.9.7.309-JS.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/png-encoder-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/poi-3.7-20101029.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/poi-ooxml-3.7-20101029.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/poi-ooxml-schemas-3.7-20101029.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/rex-0.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/rex-20080421.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/rhino-1.7R3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/saaj-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/servlet-api-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/slf4j-api-1.5.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/slf4j-log4j12-1.5.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/spring.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/sqleonardo-2009.03.rc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/swingx-2007_10_07.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/velocity-1.7-dep.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/xbean.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/xml-apis-ext.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/lib/xml-apis.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminDashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminDashBoardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminLoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminLoginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/CashierDashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/CashierDashBoardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/CustomerOrderDetailsForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/CustomerOrderDetailsForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/EmployeeForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/Payment.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/RegistrationForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/SupplierPayment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/SupplierPayment.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/stylesheets/adminDashBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/stylesheets/adminDashBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/stylesheets/customerForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/DBConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +126,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,33 +145,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/DSMP/ITP/JAVA/JDBC/milkbar-mvc/src/itp/com/milkbar/lib/fontawesomefx-8.9.jar",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/javafx-sdk-17.0.13/lib/javafx.base.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DSMP\ITP\JAVA\JDBC\milkbar-mvc\src\itp\com\milkbar\lib" />
       <recent name="D:\DSMP\ITP\JAVA\JDBC\milkbar-mvc\src\itp\com\milkbar\view\images" />
       <recent name="D:\DSMP\ITP\JAVA\JDBC\milkbar-mvc\src\itp\com\milkbar" />
       <recent name="D:\DSMP\ITP\JAVA\JDBC\milkbar-mvc\src" />
@@ -129,7 +195,8 @@
       <workItem from="1736952303895" duration="11594000" />
       <workItem from="1736990746346" duration="51182000" />
       <workItem from="1737126579936" duration="6143000" />
-      <workItem from="1737162060043" duration="26632000" />
+      <workItem from="1737162060043" duration="34000000" />
+      <workItem from="1737232287677" duration="757000" />
     </task>
     <servers />
   </component>

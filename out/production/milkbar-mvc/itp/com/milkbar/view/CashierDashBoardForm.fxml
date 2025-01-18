@@ -62,7 +62,7 @@
             <children>
                 <ImageView fitHeight="575.0" fitWidth="978.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <image>
-                        <Image url="@images/dashboard.gif" />
+                        <Image url="@images/milkcashier.png" />
                     </image>
                 </ImageView>
             </children>

@@ -26,6 +26,8 @@ public class AdminLoginFormController {
     }
 
     public void signUpOnAction(MouseEvent mouseEvent) {
+
+        
     }
 
     public void frogotPasswordOnAction(MouseEvent mouseEvent) {

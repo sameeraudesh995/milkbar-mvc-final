@@ -5,12 +5,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jfoenix-8.0.10" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-8.0.24" level="project" />
-    <orderEntry type="library" name="batik-anim" level="project" />
-    <orderEntry type="library" name="fontawesomefx-8.9" level="project" />
+    <orderEntry type="library" exported="" name="jfoenix-8.0.10" level="project" />
+    <orderEntry type="library" exported="" name="batik-anim" level="project" />
+    <orderEntry type="library" exported="" name="fontawesomefx-8.9" level="project" />
+    <orderEntry type="library" exported="" name="jBCrypt-0.4.1" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.30" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="80ebc8df-4317-47cf-9eeb-4aac8c321b71" />

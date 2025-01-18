@@ -28,6 +28,11 @@ public class LoginFormController {
 
     public void signUpOnAction(MouseEvent mouseEvent) {
         try {
+
+
+
+
+
             setUi("MainForm.fxml");
         } catch (IOException e) {
             throw new RuntimeException(e);

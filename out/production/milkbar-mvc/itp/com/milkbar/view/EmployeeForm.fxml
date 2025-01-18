@@ -12,14 +12,16 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
+<!--        linear-gradient(to bottom, #0fbcf9, #3c40c6)-->
+
 <AnchorPane fx:id="pane" prefHeight="575.0" prefWidth="978.0" styleClass="mainForm" stylesheets="@stylesheets/Employee.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itp.com.milkbar.controller.EmployeeFormController">
     <children>
-        <Button layoutX="687.0" layoutY="243.0" onAction="#btnSaveOnAction" styleClass="button" style=" -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);" text="SAVE">
+        <Button layoutX="687.0" layoutY="243.0" onAction="#btnSaveOnAction" style=" -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);" styleClass="button" text="SAVE">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button layoutX="797.0" layoutY="243.0" onAction="#btnRemoveOnAction" styleClass="button" style=" -fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" text="CLEAR">
+        <Button layoutX="797.0" layoutY="243.0" onAction="#btnRemoveOnAction" style=" -fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" styleClass="button" text="CLEAR">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
@@ -55,12 +57,12 @@
         </TableView>
         <TextField fx:id="txtSearch" layoutX="550.0" layoutY="299.0" onKeyPressed="#txtSearchOnAction" prefHeight="47.0" prefWidth="310.0" promptText="Search" styleClass="text-field">
         </TextField>
-        <Button layoutX="576.0" layoutY="243.0" onAction="#btnUpdateOnAction" styleClass="button" style=" -fx-background-color: linear-gradient(to bottom, #3772ff, #0a2472);" text="Update">
+        <Button layoutX="576.0" layoutY="243.0" onAction="#btnUpdateOnAction" style=" -fx-background-color: linear-gradient(to bottom, #3772ff, #0a2472);" styleClass="button" text="Update">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button layoutX="468.0" layoutY="243.0" onAction="#btnDeleteOnAction" styleClass="button" style=" -fx-background-color: linear-gradient(to bottom, #c1121f, #780000);" text="Delete">
+        <Button layoutX="468.0" layoutY="243.0" onAction="#btnDeleteOnAction" style=" -fx-background-color: linear-gradient(to bottom, #c1121f, #780000);" styleClass="button" text="Delete">
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor>
@@ -72,7 +74,7 @@
          </font></Label>
         <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="29.0" layoutY="14.0" onMouseClicked="#onClickBackButton" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@images/left-arrow.png" />
+                <Image url="@images/leftarrow.png" />
             </image>
         </ImageView>
         <Pane layoutX="361.0" layoutY="14.0" prefHeight="58.0" prefWidth="66.0" />
