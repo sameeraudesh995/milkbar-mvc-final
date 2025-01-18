@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="" />
+    <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,7 @@
       <workItem from="1736952303895" duration="11594000" />
       <workItem from="1736990746346" duration="51182000" />
       <workItem from="1737126579936" duration="6143000" />
-      <workItem from="1737162060043" duration="15806000" />
+      <workItem from="1737162060043" duration="16109000" />
     </task>
     <servers />
   </component>
