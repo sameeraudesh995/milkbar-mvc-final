@@ -1,7 +1,6 @@
 package itp.com.milkbar.model;
 
 public class User {
-    private int id;
     private String empId;
     private String password;
     private String userName;
@@ -10,20 +9,11 @@ public class User {
     public User() {
     }
 
-    public User(int id, String empId, String password, String userName, String role) {
-        this.id = id;
+    public User( String empId, String password, String userName, String role) {
         this.empId = empId;
         this.password = password;
         this.userName = userName;
         this.role = role;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getEmpId() {
@@ -61,7 +51,6 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
                 ", empId='" + empId + '\'' +
                 ", password='" + password + '\'' +
                 ", userName='" + userName + '\'' +

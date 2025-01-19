@@ -102,19 +102,48 @@ public class EmployeeFormController {
 
     @FXML
     void btnDeleteOnAction() {
+        String status ="notAvailable";
+        Employee employee = new Employee(
+                txtId.getText(),
+                txtName.getText(),
+                txtEmail.getText(),
+                txtAddress.getText(),
+                Double.parseDouble(txtSalary.getText()),
+                status
 
 
 
+        );
+        try{
+            boolean isDelete = new EmployeeAccessCode().delete(employee);
+
+            if(isDelete){
+                new Alert(Alert.AlertType.INFORMATION,"Employee Delete successful").show();
+                clearField();
+                loadEmployee();
+                autoGenerateEmpId();
+            }else {
+                new Alert(Alert.AlertType.WARNING, "Something went wrong");
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
+
     @FXML
     void btnSaveOnAction()  {
+        String status ="Available";
         Employee employee = new Employee(txtId.getText(),
              txtName.getText() ,
              txtEmail.getText(),
              txtAddress.getText(),
-           Double.parseDouble( txtSalary.getText())
+           Double.parseDouble( txtSalary.getText()),
+                status
         );
         try{
             boolean isEmployeeSave= new EmployeeAccessCode().employeeRegister(employee);
@@ -123,6 +152,7 @@ public class EmployeeFormController {
                new Alert(Alert.AlertType.INFORMATION, "Employee Register Successful").show();
                clearField();
                loadEmployee();
+               autoGenerateEmpId();
             } else {
             new Alert(Alert.AlertType.WARNING, "Try Again").show();
         }
@@ -135,7 +165,35 @@ public class EmployeeFormController {
 
     @FXML
     void btnUpdateOnAction() {
-        
+        String status ="Available";
+        Employee employee = new Employee(
+                txtId.getText(),
+                txtName.getText(),
+                txtEmail.getText(),
+                txtAddress.getText(),
+                Double.parseDouble(txtSalary.getText()),
+                status
+
+
+
+        );
+        try{
+            boolean isUpdate = new EmployeeAccessCode().update(employee);
+
+            if(isUpdate){
+                new Alert(Alert.AlertType.INFORMATION,"Employee Update successful").show();
+                clearField();
+                loadEmployee();
+                autoGenerateEmpId();
+            }else {
+                new Alert(Alert.AlertType.WARNING, "Something went wrong");
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

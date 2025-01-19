@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/EmployeeFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/EmployeeFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/UserFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/employee/EmployeeAccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/employee/EmployeeAccessCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/CustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/CustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/UserForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/UserForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +99,7 @@
       <workItem from="1737126579936" duration="6143000" />
       <workItem from="1737162060043" duration="34000000" />
       <workItem from="1737232287677" duration="6467000" />
-      <workItem from="1737257990707" duration="16813000" />
+      <workItem from="1737257990707" duration="26415000" />
     </task>
     <servers />
   </component>
