@@ -3,8 +3,12 @@ package itp.com.milkbar.controller;
 
         import itp.com.milkbar.db.dbAccessCode.employee.EmployeeAccessCode;
         import itp.com.milkbar.model.Employee;
+        import itp.com.milkbar.view.tm.EmployeeTM;
+        import javafx.collections.FXCollections;
+        import javafx.collections.ObservableList;
         import javafx.fxml.FXML;
         import javafx.scene.control.*;
+        import javafx.scene.control.cell.PropertyValueFactory;
         import javafx.scene.input.KeyEvent;
 
         import java.sql.SQLException;
@@ -30,22 +34,22 @@ public class EmployeeFormController {
     private TextField txtSearch;
 
     @FXML
-    private TableView<?> tblEmployee;
+    private TableView<EmployeeTM> tblEmployee;
 
     @FXML
-    private TableColumn<?, ?> colID;
+    private TableColumn colID;
 
     @FXML
-    private TableColumn<?, ?> colName;
+    private TableColumn colName;
 
     @FXML
-    private TableColumn<?, ?> colAddress;
+    private TableColumn  colAddress;
 
     @FXML
-    private TableColumn<?, ?> colEmail;
+    private TableColumn  colEmail;
 
     @FXML
-    private TableColumn<?, ?> colSalary;
+    private TableColumn colSalary;
 
     @FXML
     private Label lblStatus;
@@ -57,6 +61,24 @@ public class EmployeeFormController {
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
+        }
+        loadEmployee();
+        colID.setCellValueFactory(new PropertyValueFactory<>("empId"));
+        colName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
+        colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
+        colSalary.setCellValueFactory(new PropertyValueFactory<>("salary"));
+    }
+
+    private void loadEmployee(){
+        ObservableList<EmployeeTM> tmList = FXCollections.observableArrayList();
+        try{
+            for (Employee e: new EmployeeAccessCode().findAll()){
+                tmList.add(new EmployeeTM(e.getEmpId(),e.getName(),e.getEmail(),e.getAddress(),e.getSalary()));
+            }
+            tblEmployee.setItems(tmList);
+        }catch (ClassNotFoundException | SQLException e){
+            new Alert(Alert.AlertType.ERROR,e.getMessage()).show();
         }
     }
 
@@ -82,6 +104,7 @@ public class EmployeeFormController {
             if(isEmployeeSave){
                new Alert(Alert.AlertType.INFORMATION, "Employee Register Successful").show();
                clearField();
+               loadEmployee();
             } else {
             new Alert(Alert.AlertType.WARNING, "Try Again").show();
         }
