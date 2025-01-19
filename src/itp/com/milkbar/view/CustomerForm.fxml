@@ -9,12 +9,12 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="pane" prefHeight="575.0" prefWidth="978.0" styleClass="mainForm" stylesheets="@stylesheets/customerForm.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itp.com.milkbar.controller.CustomerFormController">
+<AnchorPane fx:id="pane" prefHeight="575.0" prefWidth="978.0" styleClass="mainForm" stylesheets="@stylesheets/Employee.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itp.com.milkbar.controller.CustomerFormController">
     <children>
-        <Button fx:id="btnSave" layoutX="617.0" layoutY="258.0" onAction="#btnSaveOnAction" styleClass="button" text="SAVE" style=" -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);"/>
-        <Button fx:id="btnUpdate" layoutX="503.0" layoutY="258.0" onAction="#btnUpdateOnAction" styleClass="button" text="UPDATE" style=" -fx-background-color: linear-gradient(to bottom, #3772ff, #0a2472);"/>
-        <Button fx:id="btnDelete" layoutX="391.0" layoutY="258.0" onAction="#btnDeleteOnAction" styleClass="button" text="DELETE" style=" -fx-background-color: linear-gradient(to bottom, #c1121f, #780000);"/>
-        <Button fx:id="btnClear" layoutX="728.0" layoutY="258.0" onAction="#btnClearOnAction" styleClass="button" text="CLEAR" style=" -fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);"/>
+        <Button fx:id="btnSave" layoutX="617.0" layoutY="258.0" onAction="#btnSaveOnAction" style=" -fx-background-color: linear-gradient(to bottom, #80ed99, #22577a);" styleClass="button" text="SAVE" />
+        <Button fx:id="btnUpdate" layoutX="503.0" layoutY="258.0" onAction="#btnUpdateOnAction" style=" -fx-background-color: linear-gradient(to bottom, #3772ff, #0a2472);" styleClass="button" text="UPDATE" />
+        <Button fx:id="btnDelete" layoutX="391.0" layoutY="258.0" onAction="#btnDeleteOnAction" style=" -fx-background-color: linear-gradient(to bottom, #c1121f, #780000);" styleClass="button" text="DELETE" />
+        <Button fx:id="btnClear" layoutX="728.0" layoutY="258.0" onAction="#btnClearOnAction" style=" -fx-background-color: linear-gradient(to bottom, #e09f3e, #9e2a2b);" styleClass="button" text="CLEAR" />
 
         <TextField fx:id="txtId" layoutX="152.0" layoutY="138.0" onAction="#txtCustomerIdOnAction" prefHeight="33.0" prefWidth="300.0" promptText="Customer Id*" styleClass="text-field" />
         <TextField fx:id="txtName" layoutX="528.0" layoutY="138.0" prefHeight="33.0" prefWidth="300.0" promptText="Customer Name*" styleClass="text-field" />
@@ -39,7 +39,7 @@
 
         <ImageView fitHeight="49.0" fitWidth="57.0" layoutX="26.0" layoutY="14.0" onMouseClicked="#onClickBack" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@images/left-arrow.png" />
+                <Image url="@images/leftarrow.png" />
             </image>
         </ImageView>
 

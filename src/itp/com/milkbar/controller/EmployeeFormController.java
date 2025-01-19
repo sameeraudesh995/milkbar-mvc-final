@@ -6,12 +6,15 @@ package itp.com.milkbar.controller;
         import itp.com.milkbar.view.tm.EmployeeTM;
         import javafx.collections.FXCollections;
         import javafx.collections.ObservableList;
+        import javafx.collections.transformation.FilteredList;
         import javafx.fxml.FXML;
         import javafx.scene.control.*;
         import javafx.scene.control.cell.PropertyValueFactory;
+        import javafx.scene.input.KeyCode;
         import javafx.scene.input.KeyEvent;
 
         import java.sql.SQLException;
+        import java.util.List;
 
 public class EmployeeFormController {
 
@@ -54,7 +57,7 @@ public class EmployeeFormController {
     @FXML
     private Label lblStatus;
 
-    public void initialize(){
+    public void initialize() throws SQLException, ClassNotFoundException {
         try {
             autoGenerateEmpId();
         } catch (SQLException e) {
@@ -68,6 +71,19 @@ public class EmployeeFormController {
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
         colSalary.setCellValueFactory(new PropertyValueFactory<>("salary"));
+
+        tblEmployee.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue != null) {
+
+                txtId.setText(newValue.getEmpId());
+                txtName.setText(newValue.getName());
+                txtEmail.setText(newValue.getEmail());
+                txtAddress.setText(newValue.getAddress());
+                txtSalary.setText(String.valueOf(newValue.getSalary()));
+            }
+        });
+
+
     }
 
     private void loadEmployee(){
@@ -81,6 +97,8 @@ public class EmployeeFormController {
             new Alert(Alert.AlertType.ERROR,e.getMessage()).show();
         }
     }
+
+
 
     @FXML
     void btnDeleteOnAction() {
@@ -117,6 +135,7 @@ public class EmployeeFormController {
 
     @FXML
     void btnUpdateOnAction() {
+        
 
     }
 
@@ -124,17 +143,53 @@ public class EmployeeFormController {
     void btnRemoveOnAction() {
 
         clearField();
+        try {
+            autoGenerateEmpId();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @FXML
-    void txtSearchOnAction(KeyEvent event) {
+    void txtSearchOnAction(KeyEvent keyEvent) {
+        if (keyEvent.getCode() == KeyCode.ENTER) {
+            String id = txtSearch.getText();
 
+
+            try {
+                Employee employee = new EmployeeAccessCode().find(id);
+                if (employee != null) {
+                    fillData(employee);
+                    txtSearch.clear();
+
+                }
+            } catch (SQLException | ClassNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     @FXML
-    void EnterKeyPressedOnAction(KeyEvent event) {
+    void EnterKeyPressedOnAction(KeyEvent keyEvent) {
+        if (keyEvent.getCode() == KeyCode.ENTER) {
+            String id = txtId.getText();
+
+
+            try {
+                Employee employee = new EmployeeAccessCode().find(id);
+                if (employee != null) {
+                    fillData(employee);
+
+                }
+            } catch (SQLException | ClassNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        }
 
     }
+
 
     @FXML
     void onClickBackButton() {
@@ -176,5 +231,14 @@ public class EmployeeFormController {
         txtAddress.clear();
         txtEmail.clear();
         txtSalary.clear();
+
+    }
+
+    private void fillData(Employee employee){
+        txtId.setText(employee.getEmpId());
+        txtName.setText(employee.getName());
+        txtEmail.setText(employee.getEmail());
+        txtAddress.setText(employee.getAddress());
+        txtSalary.setText(String.valueOf(employee.getSalary()));
     }
 }
