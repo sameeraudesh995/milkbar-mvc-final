@@ -52,11 +52,12 @@ public class EmployeeFormController {
     @FXML
     void btnDeleteOnAction() {
 
+
     }
 
     @FXML
     void btnSaveOnAction() {
-
+        
     }
 
     @FXML

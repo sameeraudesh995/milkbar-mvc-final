@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/generateID/EmployeeId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/registerAccessCode/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/registerAccessCode/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1737126579936" duration="6143000" />
       <workItem from="1737162060043" duration="34000000" />
       <workItem from="1737232287677" duration="6467000" />
-      <workItem from="1737257990707" duration="4603000" />
+      <workItem from="1737257990707" duration="5140000" />
     </task>
     <servers />
   </component>
