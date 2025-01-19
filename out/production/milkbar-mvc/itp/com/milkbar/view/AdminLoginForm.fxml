@@ -27,7 +27,7 @@
         <TextField fx:id="loginUserName" layoutX="362.0" layoutY="137.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter username" stylesheets="@stylesheets/loginForm.css" />
         <PasswordField fx:id="LoginPassword" layoutX="362.0" layoutY="186.0" prefHeight="18.0" prefWidth="200.0" promptText="Enter password" stylesheets="@stylesheets/loginForm.css" />
         <Button layoutX="362.0" layoutY="244.0" mnemonicParsing="false" onAction="#loginOnAction" styleClass="button" stylesheets="@stylesheets/loginForm.css" text="Login" />
-        <Hyperlink layoutX="383.0" layoutY="328.0" onDragDetected="#signUpOnAction" text="Don't you have an account ?" textFill="WHITE" />
+        <Hyperlink layoutX="383.0" layoutY="328.0" onDragDetected="#goToMainForm" text="Don't you have an account ?" textFill="WHITE" />
         <Hyperlink layoutX="410.0" layoutY="304.0" onDragDetected="#frogotPasswordOnAction" text="forgot password ?" textFill="WHITE" />
         <ImageView fitHeight="57.0" fitWidth="63.0" layoutX="423.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
             <image>

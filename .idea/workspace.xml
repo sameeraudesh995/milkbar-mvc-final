@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e300e0094b0432944cff693d149df8f196ebfef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e300e0094b0432944cff693d149df8f196ebfef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6423233902d6af5c633bcc6be7c0c61c28bdb6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6423233902d6af5c633bcc6be7c0c61c28bdb6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/registerAccessCode/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/AdminLoginFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/AdminLoginFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/LoginFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/LoginFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminDashBoardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminDashBoardFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminLoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminLoginFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/LoginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/AdminLoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/AdminLoginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,7 @@
       <workItem from="1737126579936" duration="6143000" />
       <workItem from="1737162060043" duration="34000000" />
       <workItem from="1737232287677" duration="6467000" />
-      <workItem from="1737257990707" duration="1147000" />
+      <workItem from="1737257990707" duration="3726000" />
     </task>
     <servers />
   </component>

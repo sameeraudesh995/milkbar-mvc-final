@@ -48,10 +48,6 @@ public class AdminLoginFormController {
         }
     }
 
-    public void signUpOnAction(MouseEvent mouseEvent) {
-
-
-    }
 
     public void frogotPasswordOnAction(MouseEvent mouseEvent) {
     }
@@ -70,4 +66,6 @@ public class AdminLoginFormController {
 
     }
 
+    public void goToMainForm(MouseEvent mouseEvent) {
+    }
 }

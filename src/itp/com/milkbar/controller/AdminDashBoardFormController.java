@@ -1,15 +1,26 @@
 package itp.com.milkbar.controller;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.util.Duration;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class AdminDashBoardFormController {
     public BorderPane mainPane;
     public AnchorPane mainContentPane;
+    public Label headerLabel;
+
+    public void initialize(){
+        timeDateDisplay();
+    }
 
     public void btnCustomerOnAction(ActionEvent actionEvent) {
         try {
@@ -74,5 +85,14 @@ public class AdminDashBoardFormController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    private void timeDateDisplay(){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> {
+            LocalDateTime now = LocalDateTime.now();
+            headerLabel.setText(now.format(formatter));
+        }));
+        timeline.setCycleCount(Timeline.INDEFINITE);
+        timeline.play();
     }
 }
