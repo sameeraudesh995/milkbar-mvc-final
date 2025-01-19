@@ -1097,8 +1097,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
     <schema id="322" parent="1" name="milkbar">
-      <IntrospectionTimestamp>2025-01-19.04:59:43</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2025-01-18.17:59:43</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2025-01-19.09:42:36</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2025-01-18.22:42:36</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="323" parent="1" name="mysql.infoschema">

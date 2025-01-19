@@ -1,0 +1,19 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍÉçÙÇ2
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÜÉçÙÇ2
+{
+java:S1104"YMake loginUserName a static final constant or non-public and provide accessors if needed.(íÛŞÿÿÿÿÿ8ŞÉçÙÇ2
+v
+java:S1104"YMake LoginPassword a static final constant or non-public and provide accessors if needed.(ùı÷8ŞÉçÙÇ2
+u
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(ÉÃäÉşÿÿÿÿ8ŞÉçÙÇ2
+t	java:S116"XRename this field "LoginPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùı÷8ûĞçÙÇ2
+
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ì×‚°8üĞçÙÇ2
+O
+java:S1172"2Remove this unused method parameter "actionEvent".(ÚÒïÍ8ºÑçÙÇ2
+N
+java:S1172"1Remove this unused method parameter "mouseEvent".(µ”Ì¦8ìÑçÙÇ2
+]
+java:S1128
+";Remove this unused import 'javafx.scene.layout.BorderPane'.(Îî¥üÿÿÿÿ8 ÔçÙÇ2

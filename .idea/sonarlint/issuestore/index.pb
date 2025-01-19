@@ -61,3 +61,7 @@ V
 -src/itp/com/milkbar/util/PasswordEncoder.java,3\2\326135f9faef147f85cd7f59517691fa4adf4348
 W
 'src/itp/com/milkbar/AppInitializer.java,3\f\3fa7a7f7eaef8926a520df11cb8e77c5df5e523f
+>
+lib/script.sql,6\a\6a9cadc92e35b33d33feeb5492e6aa823538d101
+t
+Dsrc/itp/com/milkbar/db/dbAccessCode/loginAccess/LoginAccessCode.java,a\3\a39fe9cd4a6e6d6f3afb81f7318dd00da9ccdcf6
