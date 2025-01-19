@@ -32,7 +32,13 @@ public class AdminDashBoardFormController {
     }
 
     public void btnEmployeeOnAction(ActionEvent actionEvent) {
+        try {
+            setUi("EmployeeForm");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
+
 
     public void btnSupplierOnAction(ActionEvent actionEvent) {
     }
