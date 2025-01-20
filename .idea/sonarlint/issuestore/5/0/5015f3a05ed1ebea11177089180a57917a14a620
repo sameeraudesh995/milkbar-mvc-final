@@ -1,0 +1,30 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ç›õæÇ2
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8È›õæÇ2
+g	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8È›õæÇ2
+g	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8È›õæÇ2
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å¾ÄèÇ2
+q
+java:S1104"TMake mainPane a static final constant or non-public and provide accessors if needed.(’êıÏ8Ê›õæÇ2
+x
+java:S1104"[Make mainContentPane a static final constant or non-public and provide accessors if needed.(Ùêü8Ê›õæÇ2
+y
+java:S1104"WMake headerLabel a static final constant or non-public and provide accessors if needed.(ëÏŞşÿÿÿÿ8Ë›õæÇ2
+£
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾Éš‰üÿÿÿÿ8ş›õæÇ2
+
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ƒëÓ8ÿ›õæÇ2
+£
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•Ğ‡üÿÿÿÿ8ÿ›õæÇ2
+O
+java:S1172"2Remove this unused method parameter "actionEvent".(Üë‹È8‡œõæÇ2
+O
+java:S1172""2Remove this unused method parameter "actionEvent".(úîóá8œõæÇ2
+T
+java:S1172."2Remove this unused method parameter "actionEvent".(ñí“°üÿÿÿÿ8œõæÇ2
+T
+java:S1172:"2Remove this unused method parameter "actionEvent".(Ğñ‡¿şÿÿÿÿ8“œõæÇ2
+O
+java:S1172E"2Remove this unused method parameter "actionEvent".(¬ÒÂÍ8ÊşÂèÇ2
+g
+java:S3252e"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Êı şÿÿÿÿ8§œõæÇ2

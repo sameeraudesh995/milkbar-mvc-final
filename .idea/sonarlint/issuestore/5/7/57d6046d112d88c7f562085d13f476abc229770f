@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê“È­şÿÿÿÿ8Áï†ôÇ2
+G
+java:S1481"+Remove this unused "lastid" local variable.(úŠ’88çï†ôÇ2
+X
+java:S1751"6Remove this "return" statement or make it conditional.(ŒêÄÆşÿÿÿÿ8èï†ôÇ2
+Z
+java:S1128"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ8ôï†ôÇ2
+`
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ8õï†ôÇ2

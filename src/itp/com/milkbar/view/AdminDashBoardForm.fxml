@@ -13,9 +13,9 @@
     <top>
         <Label fx:id="headerLabel" alignment="CENTER" prefHeight="48.0" prefWidth="1186.0" styleClass="header-label" text="2025-01-01  00:00">
          <graphic>
-            <HBox prefHeight="50.0" prefWidth="956.0">
+            <HBox prefHeight="50.0" prefWidth="870.0">
                <children>
-                  <Label prefHeight="48.0" prefWidth="198.0" text="Admin Dashboadr" textFill="WHITE" />
+                  <Label prefHeight="48.0" prefWidth="190.0" text="Admin Dashboard" textFill="WHITE" />
                </children>
             </HBox>
          </graphic></Label>

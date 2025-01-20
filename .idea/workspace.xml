@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eabb7dc-471b-4999-a03f-f69a5e0a7aaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/192fe76d-3448-4f9c-8d81-098f81381f5c/storage_v2/_src_/schema/milkbar.GB5YPw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/EmployeeFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/EmployeeFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lib/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/UserFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/controller/UserFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminDashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/AdminDashBoardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/UserForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/milkbar-mvc/itp/com/milkbar/view/UserForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminLoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/AdminLoginFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/controller/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/controller/UserFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/employee/EmployeeAccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/employee/EmployeeAccessCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/EmployeeForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/AdminDashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/AdminDashBoardForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/UserForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/UserForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/itp/com/milkbar/view/stylesheets/customerOrderDetailForm.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,32 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/javafx-sdk-17.0.13/lib/javafx.base.jar&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/DSMP/ITP/JavaScript/09012025",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DSMP\ITP\JAVA\JDBC\milkbar-mvc\src\itp\com\milkbar\lib" />
@@ -99,7 +100,7 @@
       <workItem from="1737126579936" duration="6143000" />
       <workItem from="1737162060043" duration="34000000" />
       <workItem from="1737232287677" duration="6467000" />
-      <workItem from="1737257990707" duration="26415000" />
+      <workItem from="1737257990707" duration="42207000" />
     </task>
     <servers />
   </component>

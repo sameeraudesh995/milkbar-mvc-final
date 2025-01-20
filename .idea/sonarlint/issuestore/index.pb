@@ -65,3 +65,17 @@ W
 lib/script.sql,6\a\6a9cadc92e35b33d33feeb5492e6aa823538d101
 t
 Dsrc/itp/com/milkbar/db/dbAccessCode/loginAccess/LoginAccessCode.java,a\3\a39fe9cd4a6e6d6f3afb81f7318dd00da9ccdcf6
+`
+0src/itp/com/milkbar/view/AdminDashBoardForm.fxml,b\5\b57a0cdc1b18253f86bd778ea376b7fe0a7afdff
+[
++src/itp/com/milkbar/view/tm/EmployeeTM.java,2\9\29c1a5aef64ab8204914ba5d2fb6af98f3987be2
+W
+'src/itp/com/milkbar/model/Employee.java,f\7\f7736e2f923687a8ced8c9cd6e12e49a1c237dcc
+S
+#src/itp/com/milkbar/model/User.java,e\5\e5ba52cd3186c9ebadc85a9a381fc8ce70d2e6b4
+j
+:src/itp/com/milkbar/controller/EmployeeFormController.java,e\8\e8a11831eaaaabeeee5b1f81dcc537cbe488d086
+t
+Dsrc/itp/com/milkbar/db/dbAccessCode/employee/EmployeeAccessCode.java,5\7\57d6046d112d88c7f562085d13f476abc229770f
+l
+<src/itp/com/milkbar/db/dbAccessCode/user/UserAccessCode.java,f\e\fe2a1ab2ec53b06037258fe1423041944a84f42d

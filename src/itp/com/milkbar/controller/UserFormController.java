@@ -5,6 +5,7 @@ package itp.com.milkbar.controller;
         import itp.com.milkbar.db.dbAccessCode.user.UserAccessCode;
         import itp.com.milkbar.model.Employee;
         import itp.com.milkbar.model.User;
+        import itp.com.milkbar.util.CrudUtil;
         import itp.com.milkbar.util.PasswordEncoder;
         import javafx.collections.ObservableList;
         import javafx.fxml.FXML;
@@ -12,6 +13,7 @@ package itp.com.milkbar.controller;
         import javafx.scene.image.ImageView;
         import javafx.event.ActionEvent;
 
+        import java.sql.ResultSet;
         import java.sql.SQLException;
         import java.util.List;
 
@@ -53,6 +55,36 @@ public class UserFormController {
             throw new RuntimeException(e);
         }
 
+        txtEmpID.getSelectionModel()
+                .selectedItemProperty()
+                .addListener((observable, oldValue, newValue) -> {
+                    if (newValue != null) {
+                        try {
+
+                            ResultSet set = CrudUtil.execute(
+                                    "SELECT * FROM user WHERE empId = ?",
+                                    newValue
+                            );
+
+
+                            if (set.next()) {
+
+                                txtEmpID.setValue(set.getString(2));
+                                txtUserName.setText(set.getString(4));
+                                txtRole.setText(set.getString(5));
+                            } else {
+
+                                txtUserName.clear();
+                                txtRole.clear();
+                            }
+                        } catch (SQLException | ClassNotFoundException e) {
+
+                            e.printStackTrace();
+                        }
+                    }
+                });
+
+
     }
 
     @FXML
@@ -87,16 +119,54 @@ public class UserFormController {
 
     @FXML
     private void btnUpdateOnAction(ActionEvent event) {
+        User user = new User(
+                txtEmpID.getValue(),
+                PasswordEncoder.encode(txtPassword.getText()),
+                txtUserName.getText(),
+                txtRole.getText()
+        );
+        try{
+            boolean isUpdate = new UserAccessCode().update(user);
+
+            if(isUpdate){
+                new Alert(Alert.AlertType.INFORMATION,"User Update successful").show();
+                clearFields();
+                loadEmployeeId();
+            }else {
+                new Alert(Alert.AlertType.WARNING, "Something went wrong");
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
     @FXML
     private void btnDeleteOnAction(ActionEvent event) {
+        try {
+            boolean isDelete = new UserAccessCode().delete(txtEmpID.getValue());
+            if(isDelete){
+                new Alert(Alert.AlertType.INFORMATION,"User Delete successful");
+                clearFields();
+                loadEmployeeId();
+            }else {
+                new Alert(Alert.AlertType.WARNING,"Something is Wrong");
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
 
     }
 
     @FXML
     private void onClickBackAction() {
+
 
     }
 
@@ -112,5 +182,8 @@ public class UserFormController {
         txtUserName.clear();
         txtPassword.clear();
         txtRole.clear();
+    }
+    private void setUi(String location){
+
     }
 }

@@ -12,7 +12,7 @@ CREATE TABLE employee(
 CREATE TABLE user(
                      id int primary key auto_increment,
                      empId varchar(45) not null ,
-                     password varchar(1000) not null ,
+                     password varchar(1000),
                      userName varchar(45) ,
                      role varchar(45),
                      foreign key (empId) references employee(emp_Id)
@@ -83,3 +83,10 @@ create table supplierPayment(
                                 date datetime,
                                 time time
 );
+
+INSERT INTO user (empId, password, userName, role) values ('EMP0001','$2a$12$y12U.5d7a4ozwpFJmWXf5elPQK2XbrJUVv7J9Dk8PSa1cXRXVciGm.','kamal','manager');
+
+
+INSERT INTO user (empId, password, userName, role) values ('EMP0001','','kamal','manager');
+
+truncate user;

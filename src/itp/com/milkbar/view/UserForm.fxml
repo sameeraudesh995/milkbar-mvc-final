@@ -15,8 +15,8 @@
         <TextField fx:id="txtPassword" layoutX="27.0" layoutY="196.0" prefHeight="40.0" prefWidth="355.0" promptText="User Password*" styleClass="text-field" />
         <TextField fx:id="txtRole" layoutX="27.0" layoutY="355.0" prefHeight="40.0" prefWidth="355.0" promptText="Role*" styleClass="text-field" />
         <Label layoutX="33.0" layoutY="79.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="Emp Id*" />
-        <Label layoutX="27.0" layoutY="163.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="UserName*" />
-        <Label layoutX="33.0" layoutY="244.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="Password*" />
+        <Label layoutX="29.0" layoutY="250.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="UserName*" />
+        <Label layoutX="26.0" layoutY="167.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="Password*" />
         <Label layoutX="33.0" layoutY="326.0" opacity="0.74" style="-fx-text-fill: #ffff;" styleClass="label" text="Role*" />
         <Button layoutX="152.0" layoutY="483.0" onAction="#btnUpdateOnAction" prefHeight="37.0" prefWidth="96.0" styleClass="button" text="Update" />
         <Button layoutX="152.0" layoutY="423.0" onAction="#btnDeleteOnAction" prefHeight="37.0" prefWidth="96.0" style="-fx-background-color: linear-gradient(to bottom, #c1121f, #780000);" styleClass="button" text="Delete" />
@@ -26,7 +26,7 @@
                 <Image url="@images/leftarrow.png" />
             </image>
         </ImageView>
-        <TextField fx:id="txtUserName" layoutX="27.0" layoutY="279.0" prefHeight="40.0" prefWidth="355.0" promptText="Enter password" styleClass="text-field" />
+        <TextField fx:id="txtUserName" layoutX="27.0" layoutY="279.0" prefHeight="40.0" prefWidth="355.0" promptText="Enter Username" styleClass="text-field" />
         <ImageView fitHeight="575.0" fitWidth="566.0" layoutX="426.0" layoutY="9.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <image>
                 <Image url="@images/Signup.gif" />

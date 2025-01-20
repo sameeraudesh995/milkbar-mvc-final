@@ -30,8 +30,9 @@ public class AdminLoginFormController {
                         LoginPassword.getText(),
                         userResult
                 )) {
-                    setUi("AdminDashBoardForm");
-                    new Alert(Alert.AlertType.INFORMATION, loginUserName.getText() + " is Logging Successfully!",
+
+            setUi("AdminDashBoardForm");
+        new Alert(Alert.AlertType.INFORMATION, loginUserName.getText() + " is Logging Successfully!",
                             ButtonType.OK).show();
 
                 } else {

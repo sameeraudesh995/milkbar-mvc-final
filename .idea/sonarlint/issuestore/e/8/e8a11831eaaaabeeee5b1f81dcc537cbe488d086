@@ -1,0 +1,36 @@
+
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŸñóÇ2
+g	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‚ŸñóÇ2
+h	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒŸñóÇ2
+h	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒŸñóÇ2
+h	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8„ŸñóÇ2
+h	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…ŸñóÇ2
+h	java:S112Ï"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…ŸñóÇ2
+h	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…ŸñóÇ2
+h	java:S112ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8İ—öóÇ2
+h	java:S112õ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ş—öóÇ2
+L
+java:S3740+"/Provide the parametrized type for this generic.(Ç‹ì´8…ŸñóÇ2
+L
+java:S3740."/Provide the parametrized type for this generic.(Œà•®8†ŸñóÇ2
+L
+java:S37401"/Provide the parametrized type for this generic.(´°æ¸8†ŸñóÇ2
+Q
+java:S37404"/Provide the parametrized type for this generic.(”Ú£öÿÿÿÿÿ8†ŸñóÇ2
+Q
+java:S37407"/Provide the parametrized type for this generic.(ù‚©·üÿÿÿÿ8†ŸñóÇ2
+¤
+java:S1186ı"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(î÷×şúÿÿÿÿ8ÒŸñóÇ2
+a
+java:S2147A"DCombine this catch with the one at line 63, which has the same body.(ıàÑÎ8İŸñóÇ2
+c
+java:S2147ƒ"ECombine this catch with the one at line 129, which has the same body.(ıàÑÎ8şŸñóÇ2
+c
+java:S2147Â"ECombine this catch with the one at line 192, which has the same body.(ıàÑÎ8ƒ ñóÇ2
+c
+java:S2147Ğ"ECombine this catch with the one at line 206, which has the same body.(ıàÑÎ8´˜öóÇ2
+k	java:S100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äàÇñ8ˆ ñóÇ2
+h
+java:S1128	"KRemove this unused import 'javafx.collections.transformation.FilteredList'.(¼¯¦8öÑÉöÇ2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8öÑÉöÇ2

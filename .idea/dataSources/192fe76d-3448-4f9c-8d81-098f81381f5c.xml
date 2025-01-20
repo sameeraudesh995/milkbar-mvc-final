@@ -1049,8 +1049,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="306" parent="1" name="milkbar">
-      <IntrospectionTimestamp>2025-01-19.22:53:58</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2025-01-19.11:53:58</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2025-01-20.13:48:37</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2025-01-20.02:48:37</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="307" parent="1" name="myapp">
@@ -1465,7 +1465,6 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="403" parent="335" name="password">
       <DasType>varchar(1000)|0s</DasType>
-      <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="404" parent="335" name="userName">
